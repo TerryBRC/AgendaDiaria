@@ -67,7 +67,7 @@ index.html: El archivo principal HTML de la aplicación.
 css/: Carpeta que contiene los estilos CSS para la interfaz de usuario.
 js/: Carpeta que contiene los scripts JavaScript para la funcionalidad de la aplicación.
 
-##Tecnologías Utilizadas 🛠️
+## Tecnologías Utilizadas 🛠️
 
 * HTML5: Para la estructura de la página web.
 * CSS3: Para el diseño y estilo de la interfaz de usuario.
