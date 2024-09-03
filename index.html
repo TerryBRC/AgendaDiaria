@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Diaria</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agenda Diaria</h1>
+        <div id="currentTime"></div>
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Nueva tarea">
+            <input type="time" id="timeInput">
+            <button onclick="addTask()">Agregar Tarea</button>
+        </div>
+        <div class="task-list" id="taskList">
+            <!-- Las tareas se agregarán aquí dinámicamente -->
+        </div>
+    </div>
+
+    <audio id="alarmSound" src="https://soundbible.com/mp3/Beep-SoundBible.com-923660219.mp3"></audio>
+
+    <script src="js/script.js">
+    </script>
+
+</body>
+
+</html>
